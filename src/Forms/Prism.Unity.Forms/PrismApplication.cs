@@ -24,6 +24,8 @@ namespace Prism.Unity
         protected PrismApplication(IPlatformInitializer platformInitializer)
             : base(platformInitializer) { }
 
+
+
         /// <summary>
         /// Initializes a new instance of <see cref="PrismApplication" /> with a <see cref="IPlatformInitializer" />.
         /// Used when there are specific types that need to be registered on the platform.
